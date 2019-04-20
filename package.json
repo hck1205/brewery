@@ -1,0 +1,36 @@
+{
+  "name": "brewery-client",
+  "version": "1.0.0",
+  "description": "brewery-client",
+  "main": "index.js",
+  "scripts": {
+    "node": "next build && node server/index.js",
+    "nodev": "next build && nodemon server/index.js",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hck1205/brewery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hck1205/brewery/issues"
+  },
+  "homepage": "https://github.com/hck1205/brewery#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "next": "^7.0.2",
+    "react": "^16.6.3",
+    "react-device-detect": "^1.6.2",
+    "react-dom": "^16.6.3",
+    "react-router-dom": "^5.0.0"
+  },
+  "proxy": "http://localhost:3000/"
+}

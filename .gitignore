@@ -1,0 +1,12 @@
+# dependencies
+/node_modules
+
+#IDE
+.vscode
+.idea
+
+# next.js
+/out
+/dist
+/build
+/.next
